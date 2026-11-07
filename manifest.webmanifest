@@ -1,0 +1,11 @@
+{
+  "name": "Sadan's Medical English",
+  "short_name": "Medical English",
+  "lang": "fi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8FAF9",
+  "theme_color": "#17324D",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

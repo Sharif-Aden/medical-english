@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sadan's Medical English</title>
+  <meta name="description" content="Sairaalan englantia bioanalytiikan opiskelijalle: 12 oppituntia, amerikanenglannin ääntäminen, ohjeet suomeksi.">
+  <meta name="theme-color" content="#17324D">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="Sadan's Medical English, etusivu">
+        <span class="brand-mark" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        <span lang="en">Sadan's Medical English</span>
+      </a>
+      <span class="spacer"></span>
+      <button type="button" class="speed-toggle" id="speed">Nopeus: Normaali</button>
+    </header>
+    <main id="main" tabindex="-1">
+      <noscript><p>Tämä sivusto tarvitsee JavaScriptin toimiakseen. Ota JavaScript käyttöön selaimen asetuksista.</p></noscript>
+    </main>
+    <nav class="bottomnav" id="bottomnav" aria-label="Päävalikko"></nav>
+  </div>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+  <dialog id="confirm-reset" aria-labelledby="cr-h">
+    <h2 id="cr-h">Nollataanko edistyminen?</h2>
+    <p>Kaikki suoritukset, testitulokset, tallennetut sanat ja asetukset poistetaan tästä selaimesta. Toimintoa ei voi perua.</p>
+    <div class="row">
+      <button type="button" class="btn danger" id="confirm-yes">Kyllä, nollaa</button>
+      <button type="button" class="btn primary" id="confirm-no" autofocus>Peruuta</button>
+    </div>
+  </dialog>
+  <script src="js/course-data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
